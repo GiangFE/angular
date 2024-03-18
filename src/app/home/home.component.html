@@ -1,4 +1,11 @@
 <div class="demo">
-  <h3>Component đầy nè</h3>
-  <p>phụ nứ là đề yêu thương</p>
+  <h3>Module ddaau đầy nè</h3>
+  <p>phụ nứ là đề yêu thương {{ name }}</p>
+  <input value="{{ name }}"/>
+  <br/>
+  <br>
+  <input [value]="name" title="đây là {{ name }}" />
+  <br>
+  <br>
+  <input [value]="name" [title]="'đây là' + name" />
 </div>
